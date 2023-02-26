@@ -70,7 +70,7 @@ export default class PostgresDriver extends AbstractDriver {
         return ret;
     }
 
-    public async GetCoulmnsFromEntity(
+    public async GetColumnsFromEntity(
         entities: Entity[],
         schemas: string[]
     ): Promise<Entity[]> {
